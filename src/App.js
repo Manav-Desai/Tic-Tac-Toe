@@ -115,7 +115,7 @@ function App() {
           winner === -1 ? <p className="turn">Turn For Player : {turn}</p> : 
           <>
             <p className='turn'>Winner of the game is Player : {turn}</p>
-            <button onClick={(e) => handleRestart()}>Restart</button>
+            <button className="restart" onClick={(e) => handleRestart()}>Restart</button>
           </>
           
         }
