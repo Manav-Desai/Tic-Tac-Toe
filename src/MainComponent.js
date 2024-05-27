@@ -18,13 +18,13 @@ const MainComponent = () => {
   {
     let cell = Number(e.target.id);
 
-    console.log("Calling handle Click for cell : " + cell);
+    // console.log("Calling handle Click for cell : " + cell);
     
     if(arr[cell] == -1)
       {
-        console.log("Before Inside if and having value of arr[cell] : " + arr[cell]);
+        // console.log("Before Inside if and having value of arr[cell] : " + arr[cell]);
         arr[cell] = turn;
-      console.log("After Inside if and having value of arr[cell] : " + arr[cell]);
+        // console.log("After Inside if and having value of arr[cell] : " + arr[cell]);
     }
   
     checkWinner(turn,arr);
